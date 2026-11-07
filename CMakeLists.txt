@@ -11,6 +11,8 @@ add_executable(${CMAKE_PROJECT_NAME}
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     "${CMAKE_SOURCE_DIR}/extern"
+    "${CMAKE_SOURCE_DIR}/extern/termcolor/include"
+    "${CMAKE_SOURCE_DIR}/include"
 )
 
 target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE
