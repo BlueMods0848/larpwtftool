@@ -2,17 +2,17 @@
 title compiler
 
 
-@REM  if exist build (
-@REM      echo.
-@REM      echo build directory already exists, removing it
-@REM      rmdir /s /q build
-@REM      if errorlevel 1 (
-@REM          echo.
-@REM          echo failed to remove build directory
-@REM          pause
-@REM          exit /b 1
-@REM      )
-@REM  )
+if exist build (
+    echo.
+    echo build directory already exists, removing it
+    rmdir /s /q build
+    if errorlevel 1 (
+        echo.
+        echo failed to remove build directory
+        pause
+        exit /b 1
+    )
+)
 
 cmake -S . -B build -A x64
 if errorlevel 1 (
