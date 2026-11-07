@@ -1,3 +1,4 @@
+im sorry i used ai on this (readme ONLY not tool)  im too lazy bro i tired
 # LARP.WTF Tool
 
 LARP.WTF is a Windows command-line utility with a simple interactive menu. It currently provides:
