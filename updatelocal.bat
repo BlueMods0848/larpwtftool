@@ -7,4 +7,4 @@ git merge -X theirs --no-edit origin/main
 
 echo.
 echo updated local
-pause
+pause 
