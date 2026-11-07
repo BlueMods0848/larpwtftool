@@ -2,7 +2,6 @@ build/
 .vs/
 .vscode/
 .idea/
-*.dll
 *.obj
 *.o
 *.pdb
